@@ -1,12 +1,12 @@
 import './Card.css'
 import villaphoto from '../../assets/images/property-01.jpg'
 
-const cardinfo=[{villatype:"luxury",price:"$2.264.000"}]
+const cardinfo=[{villatype:"luxury",price:"$2.264.000",description:"18 New Street Miami, OR 972"},{}];
 
 const Card = () => {
   return (
     <div className='card-Item'>
-       <div className='card-img'><a href=''><img src={villaphoto}/></a></div>
+       <div className='card-img'><a href='/prop-details'><img src={villaphoto}/></a></div>
         
        <div className='card-info'>
         <div className='first-line'>

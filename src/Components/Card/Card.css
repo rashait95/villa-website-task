@@ -14,10 +14,37 @@
 .card-Item .card-info {
     display: flex;
     flex-direction: column;
+    width: 100%;
 
 }
 
 .card-Item .card-info .first-line{
     display: flex;
     flex-direction: row;
-justify-content: space-between;}
+    gap: 30px;
+
+}
+.card-Item .card-info .first-line  span{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+   
+    margin-top: 25px;
+
+}
+.card-Item .card-info .first-line h6{
+    font-size: 20px;
+    color: #f35525;
+    margin-top: 6px;
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+}
+.card-Item .card-img img{
+    border-radius: 10px;
+    width: 100%;
+}
