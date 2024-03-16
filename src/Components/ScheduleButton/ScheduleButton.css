@@ -1,0 +1,33 @@
+.sechedule-btn-container{
+   display: inline-block;
+  
+  }
+
+
+  .sechedule-btn-container .schedule-btn{
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    border-radius: 20px;
+    padding:10px;
+
+  }
+  
+  
+
+  .sechedule-btn-container .fa-calender{
+ 
+    background-color: #f35525;
+    color: #fff;
+   
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    margin-right: 0;
+  }
+    

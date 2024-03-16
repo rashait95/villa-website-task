@@ -1,0 +1,91 @@
+.featured-section{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top : 20px ;
+    margin-left: 30px;
+ 
+   
+}
+
+.featured-section .image-card{
+ 
+    position: relative;
+    margin: 30px;
+    padding: 15px;
+    width: 33%;
+   
+ }
+ 
+ .featured-section .image-card .featuredimg img  {
+     width: 80%;
+     padding-left: 55px;
+ 
+ }
+
+ .featured-section .image-card .featuredicon img{
+
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    background-color: #f35525;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 0;
+    
+
+    
+ }
+
+ .featured-section .section-header{
+    
+    position: relative;
+    width: 40%;
+    transform: translateX(-20%);
+    padding: 35px;
+    margin-left: 0;
+    
+ }
+
+.featured-section .section{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+
+}
+
+
+
+.featured-section .accordion{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.featured-section .info-table{
+ 
+    position: relative;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    margin-bottom: 60px;
+}
+
+
+@media only screen and (max-width: 950px){
+
+    .featured-section{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        
+
+    }
+   .featured-section .image-card .featuredimg{
+     max-width: 100%;
+   }
+}

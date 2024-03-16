@@ -1,0 +1,22 @@
+.section-hed h6{
+    color: #ee626b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.section-hed  h2{
+    
+    width: 70%;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+   
+  
+}
+
+.sectionstyle h2{
+    color: white;
+    font-size: larger;
+}

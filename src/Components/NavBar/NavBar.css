@@ -1,0 +1,203 @@
+.nav   {
+
+
+position: sticky;
+height: 100px;
+width: 100%;
+z-index: 100;
+background-color: #fff;
+display: flex;
+background-color: transparent;
+justify-content: space-between;
+width: 100%;
+
+
+
+
+
+}
+
+
+
+
+
+.nav .nav__logo {
+  
+  display: inline-block;
+  margin-left: 70px;
+ 
+}
+
+
+ .nav__logo h1{
+
+ 
+  line-height: 100px;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  font-weight: 700;
+  letter-spacing: 2px;
+  
+}
+
+
+
+
+ .nav .nav__menu{
+ 
+  
+  
+  display: flex;
+  flex-basis: 100%;
+  justify-content: flex-end;
+  
+}
+
+
+
+.nav .nav__menu .nav__item{
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  height: 40px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #1e1e1e;
+}
+
+
+.nav .nav__menu .nav__item .nav__link{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #1e1e1e;
+  border: transparent;
+  letter-spacing: .25px;
+}
+
+
+.nav .nav__menu .nav__item .first-child.active {
+ color: #f35525;
+
+}
+
+
+
+.nav .nav__menu .nav__item  .last-child{
+  display: flex;
+  
+}
+
+
+  
+
+
+
+
+.nav .nav__menu .nav__item  .last-child .fa-calender:hover{
+  color: #fff;
+
+}
+
+
+
+
+ .nav-btn{
+  padding: 5px;
+	cursor: pointer;
+	background: transparent;
+  color: black;
+	border: none;
+	outline: none;
+	display: none;
+	font-size: 1.8rem;
+ }
+
+
+ @media only screen and (max-width: 950px) {
+	 .nav .nav-btn {
+		visibility: visible;
+    display: inline-block;
+		opacity: 1;
+    
+    left: 30px;
+	}
+
+
+ 
+   .nav .nav__menu{
+      display: none;
+      position: relative;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center ;
+      justify-content: center;
+      gap: 1.5rem;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+      border-radius: 0px 0px 25px 25px;
+      width: 100%;
+
+     
+  
+  }
+	
+
+
+  .nav .nav__menu .nav__item .nav__link{
+    
+    line-height: 50px;
+    height: 50px;
+    font-weight: 400;
+    color: #1e1e1e;
+    background-color: #fff;
+     border-radius: 0px 0px 25px 25px;
+
+  }
+
+
+   .nav {
+    height: auto;
+    flex-basis: 100%;
+    overflow: hidden;
+    
+  }
+
+  .nav__logo {
+    position: relative;
+    right: 50px;
+    top: 0%;
+    margin-left: 0px;
+  }
+  .nav .nav__menu .nav__item .last-child{
+    display: none;
+  }
+
+
+
+	.nav .responsive-nav {
+		transform: translateY(100vh);
+    display: flex;
+	}
+
+
+  
+	.nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+    display: none;
+	}
+
+ }
+
+
+
+
+
+
+

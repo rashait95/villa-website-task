@@ -1,0 +1,15 @@
+
+.table {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+   
+   
+}
+.table li{
+
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+   
+}

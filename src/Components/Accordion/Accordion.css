@@ -1,0 +1,38 @@
+
+ .accordion-style{
+    position: relative;
+    transform: translateX(-20%);
+    margin-top: 10px;
+    margin-left: 50px;
+    max-width: 100%;
+}
+
+.accordion-style .accordion-item{
+
+    margin: 15px;
+}
+.accordion-style .accordion-section {
+    width: 100%;
+}
+
+.accordion-style .acc-title{
+    border-bottom: 1px solid #eaeaea;
+    cursor: pointer;
+    display: inline-block;
+    
+
+}
+
+.accordion-section .acc-answer{
+    display: none;
+}
+
+
+@media only screen and (min-width: 950px){ 
+    .featured-section  .featured-section{
+      padding: 1em 7em;
+      flex:  0 0 33.333%;
+      max-width: 33.333;
+    }
+    
+}
