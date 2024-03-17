@@ -30,8 +30,8 @@ const showNavbar= () => {
 
   return(
 
-
-      
+      <div className='header'>
+      <header>
         <nav className='nav'>
           <NavLink to="/" className="nav__logo">
             <h1>Villa</h1>
@@ -91,6 +91,9 @@ const showNavbar= () => {
           </button>
 
         </nav>
+        </header>
+
+        </div>
 
 
    

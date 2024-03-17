@@ -1,4 +1,4 @@
-.nav   {
+.header .nav   {
 
 
 position: sticky;
@@ -21,7 +21,7 @@ width: 100%;
 
 
 
-.nav .nav__logo {
+.header .nav .nav__logo {
   
   display: inline-block;
   margin-left: 70px;
@@ -90,7 +90,6 @@ width: 100%;
 
 .nav .nav__menu .nav__item  .last-child{
   display: flex;
-  
 }
 
 
@@ -119,7 +118,11 @@ width: 100%;
  }
 
 
- @media only screen and (max-width: 950px) {
+ @media only screen and (max-width: 768px) {
+  .nav{
+    width: 100%;
+    position: sticky;
+  }
 	 .nav .nav-btn {
 		visibility: visible;
     display: inline-block;

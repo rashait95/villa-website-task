@@ -1,0 +1,21 @@
+.button-component{
+    display: inline-block;
+   
+    
+}
+.button-component button{
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    border-radius: 20px;
+    padding:10px;
+    cursor: pointer;
+
+}
+
+.button-component button:hover{
+    background-color: orangered;
+    color: black;
+}

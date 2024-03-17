@@ -17,7 +17,7 @@ const Featured = ({img,data,titledata,info}) => {
            
         </div>
         <div className='section-header'>
-          <div className='section' > <SectionHeader  sectionstyle={"sectionstyle"} titledata={titledata}/> </div> 
+          <div className='section' > <SectionHeader   titledata={titledata}/> </div> 
            
            <div className='accordion'> <Accordion   data={data}/> </div>
 

@@ -1,6 +1,6 @@
 .featured-section{
     display: flex;
-    flex-wrap: nowrap;
+    gap:3px;
     max-width: 100%;
     justify-content: space-between;
     margin-top : 20px ;
@@ -14,7 +14,7 @@
     position: relative;
     margin: 30px;
     padding: 15px;
-    width: 33%;
+    width: 28%;
    
  }
  
@@ -43,10 +43,10 @@
  .featured-section .section-header{
     
     position: relative;
-    width: 40%;
+    width: 33.3333%;
     transform: translateX(-20%);
     padding: 35px;
-    margin-left: 0;
+   
     
  }
 
@@ -60,8 +60,9 @@
 
 
 .featured-section .accordion{
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: left;
+    position: relative;
+    left: 50px;
 }
 
 .featured-section .info-table{
@@ -73,15 +74,17 @@
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
     padding: 35px 30px;
     margin-bottom: 60px;
+    width: 28%;
 }
 
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 950px) {
 
     .featured-section{
         display: flex;
         flex-direction: column;
         max-width: 100%;
+        align-items: center;
         
 
     }

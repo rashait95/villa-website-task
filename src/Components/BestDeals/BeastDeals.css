@@ -16,6 +16,7 @@
     display: flex;
     padding: 0;
     position: absolute;
+   
     
      
    
@@ -27,14 +28,8 @@
    transform: translateY(100%);
    width: 50%;
    
-    
   
    
-}
-.deals-section .header-buttons .buttons .btn.active{
-
-    background-color: orangered;
-    color: white;
 }
 .deals-section .header-buttons .buttons .btn{
     cursor: pointer;
@@ -92,3 +87,47 @@
     
 }
 
+
+@media only screen and (max-width: 767px) {
+  .deals-section{
+    width: 100%;
+  }
+  
+    .deals-section .header-buttons{
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    .deals-section .villa-info{
+   width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+        align-items: center;
+    }
+
+    .deals-section .villa-img img{
+        width: 100%;
+        align-items: center;
+    }
+    .deals-section .villa-info .info-table-deals{
+        width: 100%;
+    }
+
+    .deals-section .villa-info .villa-description{
+        width: 100%;
+        margin-bottom: 250px;
+        align-items: center;
+    }
+    .deals-section .villa-info .villa-description .villa-text{
+        text-align: left;
+    }
+    .deals-section .villa-info .villa-description  .schedule{
+        left: 10px  ;
+    }
+    
+}

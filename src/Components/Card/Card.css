@@ -1,13 +1,14 @@
 .card-Item{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 55%;
     align-items: center;
 
     background-color: #fafafa;
     border-radius: 10px;
-    padding: 30px;
+    padding: 40px;
     margin-bottom: 30px;
+   
 
 }
 
@@ -47,4 +48,17 @@
 .card-Item .card-img img{
     border-radius: 10px;
     width: 100%;
+}
+
+.card-Item .card-info .second-line{
+    font-size: 19px;
+    margin: 25px 0px;
+    border-bottom: 1px solid #eaeaea;
+   
+
+}
+
+.card-Item .card-info .fourth-line{
+ 
+    text-align: center;
 }

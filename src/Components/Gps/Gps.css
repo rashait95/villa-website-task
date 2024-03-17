@@ -1,0 +1,11 @@
+.gps-container{
+    border-radius: 10px;
+    margin-bottom: 60px;
+    flex: 0 0 auto;
+    
+
+}
+
+.gps-container iframe{
+    width: 100%;
+}

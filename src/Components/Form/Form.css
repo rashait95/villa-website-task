@@ -1,0 +1,38 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px;
+    background-color: #fff;
+
+    
+    align-items: center;
+}
+
+
+.form-container .formitem{
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.form-container .formitem input{
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+    
+}
+
+.form-container .formitem label{
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+
+}
+

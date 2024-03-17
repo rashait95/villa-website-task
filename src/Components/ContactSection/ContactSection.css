@@ -1,0 +1,64 @@
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 200px;
+    padding: 100px 0px 250px 0px;
+    justify-content: flex-end;
+   
+}
+
+.contact-section .gps-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    margin-top: -240px;
+    z-index: 1;
+    margin-left: 40px;
+    
+
+
+}
+
+.contact-section .gps-section .gps{
+   width: 56%;
+  
+   
+}
+
+.contact-section .gps-section .gps iframe{
+    height: 500px;
+}
+
+.contact-section .gps-section .form-sec{
+    width: fit-content;
+}
+
+
+.contact-section .contact-cards{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width:767px) {
+    .contact-section{
+        justify-content: space-between;
+    }
+    .contact-section .gps-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -0;
+        margin-left: 5px;
+    }
+    .contact-section .contact-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+    }
+}

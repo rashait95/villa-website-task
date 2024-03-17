@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Hero.css'
+import './Slider.css'
 import { FaChevronCircleRight, FaChevronCircleLeft, FaCircle } from 'react-icons/fa';
 
 
@@ -11,7 +11,7 @@ import { FaChevronCircleRight, FaChevronCircleLeft, FaCircle } from 'react-icons
 
 
 
-const Hero = ( {slides}) => {
+const Slider = ( {slides}) => {
 
   const [currentIndex,setCurrentIndex]=useState(0);
 
@@ -74,4 +74,4 @@ const goToPrevious =()=>{
   )
 }
 
-export default Hero
+export default Slider

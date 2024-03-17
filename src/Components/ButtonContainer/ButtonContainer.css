@@ -1,0 +1,11 @@
+.buttonscontainer{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-left: 270px;
+    margin-top: -40px;
+    padding: 10px;
+}

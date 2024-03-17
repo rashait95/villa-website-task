@@ -4,6 +4,7 @@ import SectionHeader from '../SectionHeader/SectionHeader'
 import './BeastDeals.css'
 
 import ScheduleButton from '../ScheduleButton/ScheduleButton';
+import ButtonContainer from '../ButtonContainer/ButtonContainer';
 
 
 
@@ -13,14 +14,10 @@ const BestDeals = ({titledata,infotable,imgurl, description ,buttonsnames}) => {
     <div className='header-buttons'>
        <SectionHeader titledata={titledata}/>
        <div className='buttons'>
-        {buttonsnames.map((button,index)=>(
-          <div>
-        <button className='btn active' type='button'>{button.btn1}</button>
-        <button className='btn' type='button'>{button.btn2}</button>
-        <button className='btn' type='button'>{button.btn3}</button>
-        </div>
-        ))}
+      
+        <ButtonContainer    buttonsnames={buttonsnames}/>
         
+              
 
        </div>
 
@@ -37,7 +34,7 @@ const BestDeals = ({titledata,infotable,imgurl, description ,buttonsnames}) => {
        <div className='villa-text'>
         {description.map((villa,villaIndex) => (
           <div>
-            <h4>{villa  .title}</h4>
+            <h4>{villa.title}</h4>
             <p>
                {villa.paragraph}
             </p>

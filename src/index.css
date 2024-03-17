@@ -15,8 +15,8 @@
   
 }
 
-nav{
-  position: sticky;
+header,nav{
+  position:sticky
 }
 
 ul,li{
@@ -30,12 +30,18 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
  
- 
+ width: 100%;
 
 }
-@media only screen and (max-width: 950px){
-  *{
+
+
+
+@media screen and (min-width:1000px) {
+
+
+  img{
+
     max-width: 100%;
   }
- 
+  
 }

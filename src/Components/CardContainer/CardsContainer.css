@@ -1,0 +1,33 @@
+.cards-container{
+    display: grid;
+   width: 100%;
+   grid: 150px / auto auto auto;
+   padding: 30px;
+   grid-template-rows: [row1-start] 80% [row1-end] 100px [third-line] auto [last-line];
+  
+   
+}
+
+.cards-container .carditem{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+
+@media only screen and (max-width: 767px){
+
+    .cards-container{
+        
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .cards-container .carditem{
+        width: 100%;
+        justify-content: center;
+        margin:  0 auto;
+    }
+}
